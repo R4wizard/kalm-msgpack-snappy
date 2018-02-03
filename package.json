@@ -1,0 +1,40 @@
+{
+  "name": "kalm-msgpack-snappy",
+  "version": "1.0.0",
+  "description": "A msgpack serializer and snappy compressing encoder for kalm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4wizard/kalm-msgpack-snappy.git"
+  },
+  "keywords": [
+    "google",
+    "snappy",
+    "encoder",
+    "compressing",
+    "zip",
+    "browser",
+    "kalm",
+    "serial",
+    "serialization",
+    "serializer",
+    "msgpack",
+    "socket",
+    "binary",
+    "buffer",
+    "bjson",
+    "ujson",
+    "web",
+    "browser",
+    "kalm"
+  ],
+  "author": "Peter Corcoran",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/R4wizard/kalm-msgpack-snappy/issues"
+  },
+  "homepage": "https://github.com/R4wizard/kalm-msgpack-snappy#readme"
+}
