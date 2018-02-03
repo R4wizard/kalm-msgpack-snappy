@@ -1,6 +1,6 @@
 {
   "name": "kalm-msgpack-snappy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A msgpack serializer and snappy compressing encoder for kalm",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/R4wizard/kalm-msgpack-snappy/issues"
   },
-  "homepage": "https://github.com/R4wizard/kalm-msgpack-snappy#readme"
+  "homepage": "https://github.com/R4wizard/kalm-msgpack-snappy#readme",
+  "dependencies": {
+    "msgpack-lite": "^0.1.26",
+    "snappyjs": "^0.6.0"
+  }
 }
