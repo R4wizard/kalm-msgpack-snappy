@@ -8,7 +8,7 @@ const isNotBufferPre = Buffer.from([0]);
  * @param {object} payload The payload to encode
  * @returns {Promise} The encoded payload
  */
-module.exports.encode = (payload) => {
+function encode(payload) {
   const isBuff = Buffer.isBuffer(payload);
   if (!isBuff) payload = Buffer.from(msgpack.encode(payload));
 
@@ -22,9 +22,14 @@ module.exports.encode = (payload) => {
  * @param {Buffer} payload The payload to decode
  * @returns {Promise} The decoded payload
  */
-module.exports.decode(payload) => {
+function decode(payload) {
   const isBuff = !!(payload[0] === 1);
   const res = snappy.uncompress(Buffer.from(payload.slice(1)));
   if (isBuff) return res;
   return msgpack.decode(res.toString());
+};
+
+module.exports = {
+	encode: encode,
+	decode: decode
 };

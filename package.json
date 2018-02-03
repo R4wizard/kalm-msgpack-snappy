@@ -1,6 +1,6 @@
 {
   "name": "kalm-msgpack-snappy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A msgpack serializer and snappy compressing encoder for kalm",
   "main": "index.js",
   "scripts": {
